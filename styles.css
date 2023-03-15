@@ -7,12 +7,23 @@
 }
 
 body {
-    background: #DAF0FF;
-    height: 100vh;
+/*     background-image: linear-gradient(135deg, #008bff 0, #0086ff 7.14%, #0080ff 14.29%, #4a79ff 21.43%, #7571fa 28.57%, #9368f0 35.71%, #aa5fe5 42.86%, #be55d8 50%, #ce4bca 57.14%, #db40bb 64.29%, #e636ab 71.43%, #ee2e9b 78.57%, #f3288a 85.71%, #f62679 92.86%, #f72969 100%);
+ */    height: 100vh;
     width: 100vw;
     display: grid;
     justify-content: center;
     align-items: center;
+    animation-name: cores;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes cores {
+    0% { background-image: linear-gradient(135deg, #008bff 0, #0086ff 7.14%, #0080ff 14.29%, #4a79ff 21.43%, #7571fa 28.57%, #9368f0 35.71%, #aa5fe5 42.86%, #be55d8 50%, #ce4bca 57.14%, #db40bb 64.29%, #e636ab 71.43%, #ee2e9b 78.57%, #f3288a 85.71%, #f62679 92.86%, #f72969 100%); }
+    25% { background-image: linear-gradient(135deg, #003da6 0, #003ba9 7.14%, #0038aa 14.29%, #0034aa 21.43%, #002ea7 28.57%, #0027a1 35.71%, #001c9a 42.86%, #170a91 50%, #410086 57.14%, #58007a 64.29%, #68006d 71.43%, #74005f 78.57%, #7d0051 85.71%, #830042 92.86%, #870034 100%);}
+    50% {background-image: linear-gradient(135deg, #387159 0, #31715f 7.14%, #2a7264 14.29%, #22726a 21.43%, #1b726f 28.57%, #137274 35.71%, #0d7179 42.86%, #0b717e 50%, #0e7082 57.14%, #157086 64.29%, #1d6f8a 71.43%, #276e8c 78.57%, #306c8e 85.71%, #396b90 92.86%, #426991 100%); }
+    75% { background-image: linear-gradient(135deg, #b78500 0, #a88c00 7.14%, #989100 14.29%, #869600 21.43%, #739a00 28.57%, #5e9e00 35.71%, #44a100 42.86%, #18a404 50%, #00a626 57.14%, #00a83c 64.29%, #00aa50 71.43%, #00ab63 78.57%, #00ac76 85.71%, #00ac8a 92.86%, #00ad9d 100%); }
+    100% {background-image: linear-gradient(135deg, #008bff 0, #0086ff 7.14%, #0080ff 14.29%, #4a79ff 21.43%, #7571fa 28.57%, #9368f0 35.71%, #aa5fe5 42.86%, #be55d8 50%, #ce4bca 57.14%, #db40bb 64.29%, #e636ab 71.43%, #ee2e9b 78.57%, #f3288a 85.71%, #f62679 92.86%, #f72969 100%); }
 }
 
 div {
